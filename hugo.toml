@@ -1,3 +1,52 @@
+
+theme = "coder"
+
 baseURL = 'https://thibault.jamet.dev/'
 languageCode = 'en-us'
-title = 'Thibault Jamet'
+languageName = "English"
+title = "Thibault Jamet"
+description = "Staff cloud engineer"
+
+
+[params]
+    title = "Staff cloud engineer"
+    author = "Thibault Jamet"
+    description = "Staff cloud engineer"
+    gravatar = "gravatar@thibault.jamet.me"
+    info = "Staff Dev&Ops Engineer"
+
+    [[params.social]]
+        name = "Github"
+        icon = "fa-brands fa-github fa-2x"
+        weight = 1
+        url = "https://github.com/tjamet/"
+    [[params.social]]
+        name = "LinkedIn"
+        icon = "fa-brands fa-linkedin fa-2x"
+        weight = 2
+        url = "https://www.linkedin.com/in/thibault-jamet/"
+    [[params.social]]
+        name = "Medium"
+        icon = "fa-brands fa-medium fa-2x"
+        weight = 3
+        url = "https://medium.com/@thibault.jamet"
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "about"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "About"
+    url = "/about/"
+    # title will be shown when you hover on this menu link
+    title = ""
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
