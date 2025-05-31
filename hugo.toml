@@ -5,15 +5,15 @@ baseURL = 'https://thibault.jamet.dev/'
 languageCode = 'en-us'
 languageName = "English"
 title = "Thibault Jamet"
-description = "Staff cloud engineer"
+description = "Dev&Ops engineer"
 
 
 [params]
-    title = "Staff cloud engineer"
+    title = "Dev&Ops engineer"
     author = "Thibault Jamet"
-    description = "Staff cloud engineer"
+    description = "Dev&Ops engineer"
     gravatar = "gravatar@thibault.jamet.me"
-    info = "Staff Dev&Ops Engineer"
+    info = "Dev&Ops Engineer"
 
     [[params.social]]
         name = "Github"
