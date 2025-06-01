@@ -1,0 +1,43 @@
+{{ define "content"}}
+<section class="container page">
+    <section class="centered">
+        <h1>Content & Talks</h1>
+    </section>
+    <section class="centered">
+        <div>
+            {{ .Content }}
+        </div>
+    </section>
+    <section class="centered">
+        <div class="talks-list">
+            {{ range .Pages }}
+                <div class="talk-item" style="border:1px solid #eee; border-radius:8px; margin:1.5em 0; padding:1.5em; background:#fafbfc; max-width:600px; text-align:left;">
+                    <div style="display:flex; align-items:center; justify-content:space-between;">
+                        <span style="font-size:0.9em; color:#888; font-weight:bold;">
+                            {{- $isBlog := (in (.Params.original_url | default "") "medium.com") -}}
+                            {{- $isTalk := (or (in (.Params.original_url | default "") "webinar") (and (.Params.original_language) (ne (lower .Params.original_language) "english"))) -}}
+                            {{ if $isBlog }}Blogpost{{ else if $isTalk }}Talk{{ else }}Content{{ end }}
+                        </span>
+                        <span style="font-size:0.9em; color:#888;">{{ .Date.Format "2006-01-02" }}</span>
+                    </div>
+                    <h2 style="margin:0.5em 0 0.2em 0; font-size:1.3em;">
+                        {{ if .Params.original_url }}
+                            <a href="{{ .Params.original_url }}" target="_blank" rel="noopener" style="text-decoration:none; color:#007acc;">
+                                {{ .Title }}
+                            </a>
+                        {{ else }}
+                            {{ .Title }}
+                        {{ end }}
+                    </h2>
+                    {{ if and (.Params.original_language) (ne (lower .Params.original_language) "english") }}
+                        <div style="font-size:0.9em; color:#b36b00; margin-bottom:0.5em;">Original language: {{ .Params.original_language | title }}</div>
+                    {{ end }}
+                    <div style="margin:0.7em 0 0 0; color:#333;">
+                        {{ .Summary | safeHTML }}
+                    </div>
+                </div>
+            {{ end }}
+        </div>
+    </section>
+</section>
+{{ end }}

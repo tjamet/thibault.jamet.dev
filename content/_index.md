@@ -17,3 +17,5 @@ I am always eager to learn and collaborate to drive efficiency and innovation.
 I value contributing to open-source projects and strive to combine technical skills with strategic thinking.
 I am passionate about supporting the future of infrastructure and platform engineering, aiming to help
 develop architectures that empower engineering teams and promote operational excellence.
+
+> Discover the [Articles & Talks](/articles-n-talks/) section for concise summaries and direct links to my latest Medium blog posts and technical talks!
