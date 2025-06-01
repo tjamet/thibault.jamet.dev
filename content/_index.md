@@ -3,11 +3,17 @@ title = "Thibault Jamet"
 draft = false
 +++
 
-I am a seasoned Technical Product Owner and DevOps Engineer with over a decade of experience in platform engineering and cloud infrastructure. Based in Barcelona, I specialize in creating scalable solutions that empower organizations to build and deploy software efficiently.
+I am a Technical Product Owner and DevOps Engineer with over a decade of experience in platform engineering and cloud infrastructure.
+Based in Barcelona, I have spent the last 8 years working on scalable solutions to help organizations build and deploy software more efficiently.
 
-At Adevinta, I have led transformative initiatives, scaling Kubernetes clusters to handle 300k requests per second at peak. My expertise spans DevOps, Kubernetes orchestration, and cloud technologies, with a focus on enhancing developer experiences.
+At Adevinta, I have been fortunate to contribute to initiatives such as scaling Kubernetes clusters to handle high traffic volumes.
+My experience covers Development, DevOps, Kubernetes orchestration, and cloud technologies,
+with a particular interest in improving developer experiences and integrating tools and systems.
 
-My background includes roles in backend engineering and embedded systems, providing me with a unique perspective on complex infrastructure challenges.
-I am known for my contributions to open-source projects and my ability to combine technical excellence with strategic thinking.
+With a background in backend and embedded software development, I enjoy tackling complex infrastructure challenges and
+exploring ways to unify products, tools, and workflows into cohesive systems.
+I am always eager to learn and collaborate to drive efficiency and innovation.
 
-As I look towards the future, I aim to shape how organizations approach infrastructure and platform engineering, developing architectures that create force-multiplier effects for engineering teams while maintaining operational excellence.
+I value contributing to open-source projects and strive to combine technical skills with strategic thinking.
+I am passionate about supporting the future of infrastructure and platform engineering, aiming to help
+develop architectures that empower engineering teams and promote operational excellence.
